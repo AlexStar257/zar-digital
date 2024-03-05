@@ -3,5 +3,28 @@
 @tailwind utilities;
 
 .gradient-bg {
-  background: linear-gradient(to bottom, #000000de, #000000de);
+  background-color: #f0f0f0;
+}
+
+.bgColorF {
+   background-color: #e8e8e8;
+}
+
+.linea{
+   color:#d5d5d5;
+}
+
+input{
+   border: none;
+   background: none;
+   border-bottom: 1.5px solid #5b5b5b;
+   padding: 5px;
+   margin: 5px;
+   display: inline-block;
+}
+
+input:focus {
+   outline: none;
+   border-color: black;
+   
 }

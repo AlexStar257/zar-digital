@@ -3,7 +3,7 @@ import logo from "../assets/logo-zar-digital-raz-05.svg";
 
 export const Footer = () => {
   return (
-    <footer id="Contact" className="gradient-bg">
+    <footer id="Footer" className="bg-black">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">

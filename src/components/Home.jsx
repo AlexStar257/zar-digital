@@ -1,11 +1,15 @@
 import React from "react";
 import "animate.css";
+import background from "../assets/forest.jpg";
 
 export const Home = () => {
   return (
-    <div
+    <section
       id="Home"
-      className="bg-gray-800 flex flex-col md:min-h-screen text-white bg-cover bg-center bg-no-repeat bg-fixed relative z-10"
-    ></div>
+      className="flex flex-col md: min-h-screen text-black bg-cover bg-center bg-no-repeat relative z-10"
+      style={{
+        backgroundImage: `url(${background})`,
+      }}
+    ></section>
   );
 };

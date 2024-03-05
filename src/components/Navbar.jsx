@@ -16,7 +16,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav id="Navbar" className="bg-white p-4 border rounded-md shadow-lg">
+    <nav id="Navbar" className="bg-white p-4 border rounded-md shadow-xl">
       <div className="container mx-auto flex items-center justify-between ">
         {/* Logo */}
         <img src={logo} alt="" className="w-52" />
@@ -27,7 +27,7 @@ export const Navbar = () => {
             <button
               href="#Home"
               onClick={scrollToHome}
-              className="text-black hover:text-gray-300"
+              className="text-black hover:bg-gray-300 p-2 rounded-md"
             >
               Inicio
             </button>
@@ -36,7 +36,7 @@ export const Navbar = () => {
             <button
               href="#About"
               onClick={scrollToAbout}
-              className="text-black hover:text-gray-300"
+              className="text-black hover:bg-gray-300 p-2 rounded-md"
             >
               Acerca de
             </button>
@@ -45,7 +45,7 @@ export const Navbar = () => {
             <button
               href="#Contacto"
               onClick={scrollToContact}
-              className="text-black hover:text-gray-300"
+              className="text-black hover:bg-gray-300 p-2 rounded-md"
             >
               Contacto
             </button>

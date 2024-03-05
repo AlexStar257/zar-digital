@@ -1,4 +1,4 @@
-import { Navbar, Home, Footer, About } from "./components";
+import { Navbar, Home, Footer, About, Contact } from "./components";
 import "./App.css";
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Contact />
       <Footer />
     </>
   );
